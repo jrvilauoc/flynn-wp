@@ -2,7 +2,7 @@
     "name": "zomnium/flynn-wp",
     "description": "A template for installing and running WordPress on Flynn",
     "require": {
-        "php": "~5.6.0",
+        "php": "~5.6.20",
         "WordPress/WordPress": "*"
     },
     "repositories": [
@@ -10,10 +10,10 @@
             "type": "package",
             "package": {
                 "name": "WordPress/WordPress",
-                "version": "4.7.3",
+                "version": "5.3",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/4.7.3.zip"
+                    "url": "https://github.com/WordPress/WordPress/archive/master.zip"
                 }
             }
         },
